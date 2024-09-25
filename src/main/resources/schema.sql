@@ -1,0 +1,5 @@
+ CREATE TABLE IF NOT EXISTS manager (
+    manager_id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    is_active BOOLEAN DEFAULT TRUE
+);
